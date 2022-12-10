@@ -1,0 +1,55 @@
+/*font type*/
+body {
+  font-family: "Lato", sans-serif;
+  margin: 5px;
+}
+
+
+/* justify the upper part */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+.left-side {
+  display: flex;
+}
+
+
+/* title size */
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+
+/* title underline color*/
+.active-nav-link {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+/* color of the title*/
+.nav-link-wrapper a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+/* change color when the mouse is on */
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+.nav-link-wrapper a:hover {
+  color: rgb(255, 0, 0);
+}
+
+/* 19308 color*/
+.right-side {
+color: rgb(255, 255, 255);
+}
+
+.info {color: rgb(255, 255, 255);}
